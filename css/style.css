@@ -1,3 +1,27 @@
+/*-----------------------------------*\
+ * #CUSTOM PROPERTY
+\*-----------------------------------*/
+
+:root {
+    /*COLORS*/
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-light-gray: hsl(212, 45%, 89%);
+    --clr-grayish-blue: hsl(220, 15%, 55%);
+    --clr-medium-blue: hsl(228, 45%, 44%);
+    --clr-dark-blue: hsl(218, 44%, 22%);
+    /* TYPOGRAPHY */
+    --ff-primary: 'outfit', sans-serif;
+    --fs-p: 1.5rem;
+    --fs-a: 1.1rem;
+    /*BORDERS*/
+    --border-radius: 2rem;
+    --img-border-radius: 1rem;
+}
+
+/*-----------------------------------*\
+ * #RESET
+\*-----------------------------------*/
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -12,26 +36,17 @@ img {
     max-width: 100%;
 }
 
-:root {
-    --clr-white: hsl(0, 0%, 100%);
-    --clr-light-gray: hsl(212, 45%, 89%);
-    --clr-grayish-blue: hsl(220, 15%, 55%);
-    --clr-medium-blue: hsl(228, 45%, 44%);
-    --clr-dark-blue: hsl(218, 44%, 22%);
-    --p-font-size: 1.5rem;
-    --a-font-size: 1.1rem;
-    --ff-primary: 'outfit', sans-serif;
-    --border-radius: 2rem;
-    --img-border-radius: 1rem
-}
-
 body {
-    font-size: var(--p-font-size);
+    font-size: var(--fs-p);
     font-family: var(--ff-primary);
     background: var(--clr-light-gray);
     text-align: center;
     margin: 0;
 }
+
+/*-----------------------------------*\
+ * #CONTENT
+\*-----------------------------------*/
 
 .flex-container {
     display: flex;
@@ -41,6 +56,8 @@ body {
     align-items: center;
     margin: 0 1rem;
 }
+
+    /*CARD*/
 
 .qr-card {
     background: var(--clr-white);
@@ -55,6 +72,9 @@ img {
     border-radius: var(--img-border-radius);
     margin: 0 auto;
 }
+
+    /*TEXT*/
+
 
 h2 {
     color: var(--clr-dark-blue);
@@ -71,8 +91,10 @@ h2, p {
     padding-right: 1.4rem;
 }
 
+    /*STICKY ATTRIBUTION DIV*/
+
 .attribution { 
-    font-size: 11px; 
+    font-size: var(--fs-a); 
     text-align: center; 
     position: sticky;
     top: 100vh;
