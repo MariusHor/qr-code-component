@@ -37,7 +37,7 @@ body {
 .qr-card {
     background: var(--clr-white);
     border-radius: var(--border-radius);
-    padding: 1.5rem;
+    padding: 1.6rem;
     margin: auto;
     width: 320px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
@@ -46,6 +46,18 @@ body {
 img {
     border-radius: var(--img-border-radius);
     margin: 0 auto;
+}
+
+.text {
+    margin: 2.5rem 1.4rem;
+}
+
+h2 {
+    color: var(--clr-dark-blue);
+}
+
+p {
+    color: var(--clr-grayish-blue);
 }
 
 .attribution { 
