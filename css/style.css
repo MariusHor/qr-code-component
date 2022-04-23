@@ -34,11 +34,25 @@ body {
     margin: 0;
 }
 
+.qr-card {
+    background: var(--clr-white);
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    margin: auto;
+    width: 320px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
+}
+
+img {
+    border-radius: var(--img-border-radius);
+    margin: 0 auto;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: var(--clr-medium-blue) 
 }
