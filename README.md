@@ -35,8 +35,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-This project, although a simple one, was very very helpful in giving me a better understanding of the things that I`ve learned in the past like css variables
-and the importance of having a structured HTML as well as using comments inside the CSS file to make things more clear. I`ve also realized that I can use the parent 
+This project, although a simple one, was very very helpful in giving me a better understanding of the things that I have learned in the past like css variables
+and the importance of having a structured HTML as well as using comments inside the CSS file to make things more clear. I have also realized that I can use the parent 
 container to manipulate the size of my images and this was a nice find!
 
 ### Continued development
