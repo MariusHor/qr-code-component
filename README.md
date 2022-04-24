@@ -46,5 +46,5 @@ adding more cards and making them responsive to tablet and desktop sizes.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/MariusHor)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/MariusHor)
 
