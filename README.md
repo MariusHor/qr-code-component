@@ -21,8 +21,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/qr-code-component-using-html-and-css-flexbox-BkhWvfzrc)
-- Live Site URL: (https://mariushor.github.io/qr-code-component)
+- [Solution URL](https://www.frontendmentor.io/solutions/qr-code-component-using-html-and-css-flexbox-BkhWvfzrc)
+- [Live Site URL](https://mariushor.github.io/qr-code-component)
 
 ## My process
 
@@ -46,5 +46,4 @@ adding more cards and making them responsive to tablet and desktop sizes.
 
 ## Author
 
-- Frontend Mentor - (https://www.frontendmentor.io/profile/MariusHor)
-
+- Frontend Mentor - [@mariusHor](https://www.frontendmentor.io/profile/MariusHor)
